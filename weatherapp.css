@@ -1,0 +1,95 @@
+/* Stylesheet for  Weather App */
+/*@import url('https://fonts.googleapis.com/css?family=Montserrat');*/
+
+html {
+ background-image: url("/home/alvin/weatherapp/77031e23b56707988f5e742308c6cd9c.jpg");
+}
+
+#weatherbox {
+  border: 1px solid #FFFFFF;
+  color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 5vw;
+  margin: auto;
+  max-width: 100%;
+  max-height: 100%;
+  overflow: auto;
+  width: 300px;
+  height: 350px;
+}
+
+h1{
+  text-align: center;
+}
+
+#topbox {
+  border-bottom: 1px #FFFFFF solid;
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+}
+
+#middlebox {
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#midmid {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+
+.bottomsides {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+button {
+  color: #FFFFFF;
+  outline: none;
+}
+
+#temp {
+  font-size: 75px;
+  padding-left: 10px;
+}
+
+.fc {
+  border: none;
+  border-radius: 50%;
+  font-size: 35px;
+  height: 1.5em;
+  width: 1.5em;
+  text-align: center;
+  text-decoration: none;
+  background: none;
+  cursor: pointer;
+  padding: 0px;
+}
+
+.fc:hover {
+  color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+
+}
